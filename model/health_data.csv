@@ -1,0 +1,16 @@
+Age,Gender,BMI,BP,Sugar,Cholesterol,Smoking,FamilyHistory,Disease
+45,Male,28.5,130,180,220,Yes,Yes,Diabetes
+56,Female,32.1,120,90,180,No,No,No Disease
+38,Male,25.3,140,160,210,No,Yes,Diabetes
+28,Female,22.0,110,80,170,No,No,No Disease
+63,Male,29.4,150,200,240,Yes,Yes,Heart Disease
+35,Female,31.5,135,85,190,No,No,No Disease
+50,Male,27.0,138,170,230,Yes,Yes,Heart Disease
+47,Male,26.2,128,150,200,Yes,Yes,Diabetes
+60,Female,33.5,145,95,185,No,No,No Disease
+33,Male,23.8,115,89,178,No,No,No Disease
+54,Female,30.0,132,140,215,Yes,Yes,Heart Disease
+41,Male,26.4,137,155,225,No,No,Diabetes
+29,Female,24.1,118,99,182,No,No,No Disease
+65,Male,34.2,148,210,250,Yes,Yes,Heart Disease
+36,Female,29.9,125,145,210,No,Yes,Diabetes
