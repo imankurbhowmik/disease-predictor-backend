@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from fastapi.responses import HTMLResponse
 import pickle
 import numpy as np
-
 
 # Load model and encoders
 with open('model/random_forest_model.pkl', 'rb') as f:
@@ -56,3 +56,11 @@ async def predict(data: PatientData):
 
     # Return prediction as label
     return {"prediction": predicted_label}
+
+# Root route for base URL
+@app.get("/", response_class=HTMLResponse)
+async def root():
+    return """
+    <h2>✅ FastAPI Backend is Running!</h2>
+    <p>Go to <a href='/docs'>/docs</a> to use Swagger UI.</p>
+    """
